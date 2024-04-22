@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn__primary {
+        @apply p-3 px-8 rounded-md shadow-xl shadow-indigo-500/50 text-white font-bold bg-indigo-500 hover:bg-indigo-700 ;
+    }
+    .bg__card {
+        @apply bg-gradient-to-r from-violet-400 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+    }
+}
